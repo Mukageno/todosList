@@ -1,0 +1,33 @@
+@import url('fonts.scss');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'RR';
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+span,
+label,
+img {
+  display: inline-block;
+}
+
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
